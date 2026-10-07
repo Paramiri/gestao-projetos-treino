@@ -16,9 +16,9 @@ administra o ambiente.
   SSO Microsoft: um menu suspenso com os 6 papéis (Solicitante, Gerente de Projetos,
   Gestor Responsável, Dono do Negócio, Alta Gestão, PMO/Admin) — a pessoa só escolhe
   o papel e clica em Entrar, sem digitar e-mail nem senha. Por trás, cada papel está
-  ligado a uma das 6 contas fixas (`solicitante@treino.unialfa.local`,
-  `gp@treino.unialfa.local`, `gestor@treino.unialfa.local`, `dono@treino.unialfa.local`,
-  `altagestao@treino.unialfa.local`, `admin@treino.unialfa.local`), com a senha
+  ligado a uma das 6 contas fixas (`solicitante@demo.sgp.local`,
+  `gp@demo.sgp.local`, `gestor@demo.sgp.local`, `dono@demo.sgp.local`,
+  `altagestao@demo.sgp.local`, `admin@demo.sgp.local`), com a senha
   compartilhada preenchida automaticamente pelo front-end.
 - Notificação por e-mail e importação por IA (transcrição/áudio) ficam **desligadas**
   por padrão nesse ambiente.
