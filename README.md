@@ -1,4 +1,4 @@
-# UNIALFA — Sistema de Gestão de Projetos (Ambiente de Treinamento)
+# SGP · Sistema de Gestão de Projetos (Ambiente de Treinamento)
 
 Este repositório é um **espelho de treinamento/demonstração** do sistema de produção
 (`Paramiri/gestao-projetos`), publicado via GitHub Pages neste próprio endereço
@@ -10,10 +10,10 @@ administra o ambiente.
 
 ## O que é diferente da produção
 
-- Aponta para um **projeto Supabase separado** (`unialfa-treinamento`), com schema e
+- Aponta para um **projeto Supabase separado** (`treinamento`), com schema e
   políticas de RLS idênticos à produção, mas **dados 100% fictícios**.
-- Tem uma **terceira opção de login** na tela de entrada, além do link mágico e do
-  SSO Microsoft: um menu suspenso com os 6 papéis (Solicitante, Gerente de Projetos,
+- Tem uma **terceira opção de login** na tela de entrada, além do link mágico por
+  e-mail: um menu suspenso com os 6 papéis (Solicitante, Gerente de Projetos,
   Gestor Responsável, Dono do Negócio, Alta Gestão, PMO/Admin) — a pessoa só escolhe
   o papel e clica em Entrar, sem digitar e-mail nem senha. Por trás, cada papel está
   ligado a uma das 6 contas fixas (`solicitante@demo.sgp.local`,
