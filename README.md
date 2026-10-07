@@ -1,8 +1,8 @@
 # UNIALFA — Sistema de Gestão de Projetos (Ambiente de Treinamento)
 
 Este repositório é um **espelho de treinamento/demonstração** do sistema de produção
-(`Paramiri/unialfa-gestao-projetos`), publicado via GitHub Pages neste próprio endereço
-(`https://paramiri.github.io/unialfa-gestao-projetos-treino/`).
+(`Paramiri/gestao-projetos`), publicado via GitHub Pages neste próprio endereço
+(`https://paramiri.github.io/gestao-projetos-treino/`).
 
 Repositório público (exigência do GitHub Pages no plano gratuito) — por isso as
 credenciais das contas de treinamento **não** ficam neste README. Peça-as a quem
@@ -26,11 +26,11 @@ administra o ambiente.
 ## Como sincronizar com a produção
 
 Este repositório é atualizado manualmente (não há workflow automático replicando
-commits de `unialfa-gestao-projetos` para cá) — mas, por regra do projeto, deve ser
+commits de `gestao-projetos` para cá) — mas, por regra do projeto, deve ser
 mantido em dia: sempre que um arquivo do site de produção muda, o mesmo arquivo é
 copiado para cá no mesmo commit (ou logo em seguida), para o ambiente de treino
 continuar refletindo a mesma versão do sistema. Basta copiar os arquivos alterados
-do repositório principal (`unialfa-gestao-projetos`) para cá, mantendo o mecanismo
+do repositório principal (`gestao-projetos`) para cá, mantendo o mecanismo
 de troca de backend por hostname (`IS_TREINO = location.href.indexOf('treino')>-1`)
 intacto — ele já está em cada um dos arquivos HTML e não precisa de nenhuma edição
 manual para continuar funcionando aqui.
